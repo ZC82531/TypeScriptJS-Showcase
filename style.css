@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Moon';
+    src: url('fonts/Moon2.0-Light.otf') format('opentype');
+  }
+@font-face {
+    font-family: 'Varela';
+    src: url('fonts/VarelaRound-Regular.ttf') format('truetype');
+  }
+@media(min-width: 841px){
+    
+    
+    body{
+        background-image: url("images/background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    
+    .main{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .sub {
+        display: flex;
+    }
+    
+    .sub div{
+        padding: 10px;
+    }
+    
+    .main div {
+        font-family: Moon;
+        font-size: 35px;
+        padding: 10px;
+        font-weight: bold;
+    }
+    
+    #home {
+        margin-right: 10px;
+    }
+    
+    #name{
+        letter-spacing: 3px;
+        margin-left: 5px;
+        transition: transform 1s;
+    }
+    
+    .intro {
+        padding-bottom: 500px;
+        
+    }
+    #welcome{
+        font-family: Varela;
+        font-size: 55px;
+        letter-spacing: 2px;
+        position: absolute;
+        top: 250px;
+        left: 550px;
+    }
+    #welcome p {
+        display: inline;
+    }
+    
+    #space{
+        font-family: Varela;
+        font-size: 53px;
+        position: absolute;
+        top: 320px;
+        left: 550px;
+    }
+    
+    #preview {
+        display: inline;
+        color: rgb(79, 223, 22);
+    }
+    
+    .preview{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .preview div{
+        max-width: 33%;
+        overflow: hidden;
+        justify-content: space-between;
+    }
+    
+    .preview div img{
+        transition: transform 1s;
+        opacity: .85;
+    }
+    
+    .preview div img:hover{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    
+    #first{
+        margin-right: 15px;
+    }
+    
+    #last{
+        margin-left: 15px;
+    }
+    
+    #name:hover{
+        transform: scale(1.2);
+    }
+    
+    #home:hover{
+        transform: scale(1.3);
+        transition: transform 1s;
+    }
+    
+    #about:hover{
+        transform: scale(1.3);
+        transition: transform 1s;
+    }
+    
+    #message{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 25px;
+        font-family: Varela;
+        font-size: 25px;
+    }
+    
+    .btn{
+        width: 100%;
+        height: 50px;
+        border: 3px solid rgb(101, 82, 185);
+        color: rgb(101, 82, 185);
+        transition: ease-out 0.4s;
+        font-size: 20px;
+        font-family: Varela;
+        outline: none;
+    }
+    .btn:hover{
+        box-shadow: inset 300px 50px 30px 70px rgb(101, 82, 185);
+        cursor: pointer;
+        color: white;
+    }
+    .reference{
+        margin-top: 20px;
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-bottom: 70px;
+    }
+    
+    .hyperlink{
+        text-decoration: none;
+        color: black;
+    }
+    
+    #entry{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #text{
+        height: 40px;
+    }
+    #sbmt{
+        height: 45px;
+    }
+    
+    #cntr{
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    #delete{
+        width: 70%;
+        height: 40px;
+        text-transform: uppercase;
+    }
+}
+@media (max-width: 840px){
+    #name{
+        display: none;
+    }
+    .sub{
+        display:flex;
+        justify-content: space-between;
+        font-family: Moon;
+        font-size: 25px;
+    }
+    .preview{
+        flex-direction: column;
+        align-items:center;
+    }
+    #first,#second,#last{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .preview img{
+        width: 70%;
+    }
+    .hyperlink{
+        text-decoration: none;
+        color: black;
+    }
+    body{
+        background-image: url("images/background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #entry{
+        display: flex;
+        justify-content: center;
+    }
+    
+    #text{
+        height: 40px;
+    }
+    #sbmt{
+        height: 45px;
+    }
+    .preview div img{
+        transition: transform 1s;
+        opacity: .85;
+    }
+    
+    .preview div img:hover{
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    #preview{
+        display: inline;
+    }
+    #welcome,#space{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    #space{
+        margin-bottom: 15px;
+    }
+    #cntr{
+        display: flex;
+        justify-content: center;
+    }
+    #delete{
+        height: 40px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    #message{
+        text-align: center;
+        font-size: 140%;
+    }
+    .btn{
+        margin-top: 20px;
+        width: 100%;
+        height: 50px;
+        border: 3px solid rgb(101, 82, 185);
+        color: rgb(101, 82, 185);
+        transition: ease-out 0.4s;
+        font-size: 20px;
+        font-family: Varela;
+        outline: none;
+    }
+    .btn:hover{
+        box-shadow: inset 300px 50px 30px 70px rgb(101, 82, 185);
+        cursor: pointer;
+        color: white;
+    }
+    #home,#about{
+        transition: transform 1.1s;
+        font-family: Moon;
+        font-size: 130%;
+    }
+    #home:hover,#about:hover{
+        transform: scale(1.4);
+    }
+    #welcome{
+        display: flex;
+        justify-content: center;
+        font-family: Varela;
+        font-size: 140%;
+    }
+    #space{
+        font-family: Moon;
+        font-size: 160%;
+    }
+}
