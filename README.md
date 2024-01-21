@@ -9,7 +9,7 @@ Putting in a name from the JSON file provided:
 After putting in a name from the JSON file provided:
 ![](images/After_Entry.png)
 
-Here is a demonstration of the TypeScript animation
+Here is a demonstration of the TypeScript animation. Please click on the thumbnail to see the video animation.
 [![](https://i.imgur.com/mEu7eB9.png)](https://i.imgur.com/mEu7eB9.mp4)
 
 ## License
