@@ -27,3 +27,19 @@ dlt.ondblclick = function(event){
     imgs.innerHTML = "";
     dv.innerHTML = "";
 }
+
+// Typing animation
+document.addEventListener('DOMContentLoaded', function () {
+    var target = document.getElementById('space');
+
+    // Custom settings for the typing animation
+    var settings = {
+        strings: ['','Check the Preview Below'],
+        typeSpeed: 50,
+        backSpeed: 25,
+        loop: true
+    };
+
+
+    new Typed(target, settings);
+});

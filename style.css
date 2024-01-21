@@ -287,3 +287,39 @@
         font-size: 160%;
     }
 }
+
+/* Button Modification */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #text {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Varela', sans-serif; /* Use Varela font for consistency */
+  }
+
+  #sbmt, #delete {
+    height: 45px;
+    width: 100%;
+    background-color: #4caf50; /* Green background color */
+    color: white; /* White text color */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.5s ease; /* Smooth background color transition */
+    font-family: 'Varela', sans-serif; /* Use Varela font for consistency */
+  }
+  
+  #sbmt:hover, #delete:hover {
+    background-color: #45a049; /* Darker green background color on hover */
+  }
+  
