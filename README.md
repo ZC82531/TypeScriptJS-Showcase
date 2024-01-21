@@ -12,6 +12,8 @@ After putting in a name from the JSON file provided:
 Here is a demonstration of the TypeScript animation. Please click on the thumbnail to see the video animation.
 [![](https://i.imgur.com/mEu7eB9.png)](https://i.imgur.com/mEu7eB9.mp4)
 
+View the deployed website [here](https://zc82531.github.io/TypeScriptJS-Showcase/).
+
 ## License
     The MIT License (MIT)
 
